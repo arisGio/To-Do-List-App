@@ -38,4 +38,6 @@ function addTodo(event) {
 
     todoList.appendChild(todoDiv);
 
+    todoInput.value = '';
+
 }
