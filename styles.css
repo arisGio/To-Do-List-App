@@ -1,1 +1,5 @@
-/* in order to focus on the functionality of the app I will incorporate styling in the end */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
