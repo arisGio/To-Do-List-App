@@ -36,4 +36,6 @@ function addTodo(event) {
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
 
+    todoList.appendChild(todoDiv);
+
 }
