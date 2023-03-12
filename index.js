@@ -15,5 +15,6 @@ todoButton.addEventListener('click', addTodo);
 // FUNCTIONS
 
 function addTodo(event) {
-    console.log("hello");
+    event.preventDefault(); 
+    console.log('add button pressed');
 }
